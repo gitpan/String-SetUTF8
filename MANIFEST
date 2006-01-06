@@ -1,0 +1,11 @@
+Changelog
+Makefile.PL
+MANIFEST			This list of files
+README
+SetUTF8.pm
+SetUTF8.xs
+t/01-basic.t
+t/02-nonstring.t
+t/03-pod.t
+t/04-podcoverage.t
+META.yml                                Module meta-data (added by MakeMaker)

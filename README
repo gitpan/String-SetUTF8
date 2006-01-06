@@ -1,0 +1,53 @@
+# $Id: README,v 1.0 2006/01/06 19:08 $
+
+--------
+Abstract
+--------
+
+String::SetUTF8 lets you directly set or unset the UTF-8 flag for your 
+strings. Sometimes you get binary data that Perl doesn't treat as UTF-8,
+so instead of doing a trick with pack and unpack you can just use this 
+module.
+
+------------------
+Basic Installation
+------------------
+
+String::SetUTF8 may be installed through the CPAN shell in
+the usual manner.  Typically:
+
+  $ perl -MCPAN -e 'install String::SetUTF8'
+
+You can also read this README from the CPAN shell:
+
+  $ perl -MCPAN -e shell
+  cpan> readme String::SetUTF8
+
+And you can install the component from the CPAN prompt as well:
+
+  cpan> install String::SetUTF8
+
+-------------------
+Manual Installation
+-------------------
+
+This module may also be installed manually.  Its distribution is
+available from the author's CPAN directory,
+<ftp://ftp.cpan.org/pub/CPAN/authors/id/A/AA/AAR/>, or a similarly
+named directory at your favorite CPAN mirror.
+
+Downloading and unpacking the distribution are left as exercises for
+the reader.  To build and test it:
+
+  perl Makefile.PL
+  make test
+
+When you're ready to install the component:
+
+  make install
+
+It should now be ready to use.
+
+Thanks for reading!
+
+-- Alessandro Ranellucci / aar@cpan.org / http://alex.primafila.net
